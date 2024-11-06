@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.nav-link{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 25px !important;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #0AAAA0 ;
+}
+.navbar_btn{
+    background-color: #0AAAA0;
+    border: none;
+    font-weight: 600;
+    color: white;
+    padding: 4px 15px;
+    font-size: 14px;
+    width: 100px; 
+    margin-left : 150px;
+   text-decoration: none;
+}
+.navbar_btn:hover{
+    background-color: transparent;
+    border: 2px solid black ;
+    color: black;
+    font-weight: 600;
+    padding: 4px 15px;
+    font-size: 14px;
+    width: 100px;
+    transition: 0.3s ease-in-out;
+}
+
+.drowupDown ul{
+    list-style: none;
+    transition:3s ease-in-out;
+    padding-left: 0px; 
+    width: 200px;  
+}
+.drowupDown ul li{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.drowupDown ul li:hover{
+    border-bottom:1px solid #0AAAA0 ;
+    color: #0AAAA0;
+}
+.drowupDown{
+    position: absolute;
+    top: 65px;
+    background-color: white;
+    padding: 10px;
+    width: auto;
+    margin-left:-10px;
+    box-shadow: #0AAAA0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.drowupDown>ul>li>Link {
+    text-decoration:none ;
+}
+.subMenu_Home_link{
+    text-decoration: none;
+    color: black;
+}
+.subMenu_Home_link:hover{
+    text-decoration: none;
+    color:#0AAAA0;
+}
+.page_submenu{
+    position: absolute;
+    top: 65px;
+    background-color: white;
+    padding: 10px;
+    width: auto;
+    margin-left:-10px;
+    box-shadow: #0AAAA0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    left: 400px;
+    z-index: 1;
+
+}
+.page_submenu ul{
+    list-style: none;
+    padding:15px;   
+    text-decoration: none;
+}
+.page_submenu ul li{
+padding-bottom: 10px;
+border-bottom: 1px solid black;
+text-decoration: none;
+color: black;
+}
+.page_submenu ul li:hover{
+    border-bottom: 1px solid #0AAAA0;
+    color: #0AAAA0;
+ }
+ .page_submenu > ul > li > link{
+    text-decoration: none !important;
+ }
+ .page_submenu > ul > li > link:hover{
+    text-decoration: none;
+    color: #0AAAA0;
+    border-bottom:1px solid #0AAAA0;
+ }
+.carousel_btn{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding:6px 20px ;
+    text-decoration: none;
+}
+.carousel_btn:hover{
+    border:none;
+    background-color:#0AAAA0;
+    color: white;
+}
+.fs{
+    font-weight: 600;
+    font-size: 40px;
+}
+.section_heading{
+    color: #0AAAA0;
+}
+ 
+/* card css start */
+.card{
+    border: none;
+}
+.card:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.card-body{
+    background-color: #e0e0e0;;
+}
+.card_btn{
+    border: 1px solid black;
+    color:black ;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+}
+/* .card_btn >.card:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+} */
+.fabuild{
+    border:1px solid #0AAAA0;
+    padding: 12px;
+    margin-bottom: 8px;
+
+}
+ /* Remove the border around the tabs */
+  .nav-tabs .nav-link {
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    color:black;
+  }
+  
+  /* Optional: Remove bottom border on active tab link */
+  .nav-tabs .nav-link.active {
+    border-bottom: none;
+  }
+#myTab{
+    border: none;
+    justify-content: center;
+
+}
+.card_tab_panel h3{
+
+border: 2px solid black;
+color: black;
+font-weight: bold;
+width:  40px;
+height: 40px;
+justify-content: center;
+}
+.card_tab_panel {
+    position: relative;
+}
+
+.card_tab_panel2 {
+    position: absolute;
+    top: 17px;
+    left: 17px;
+    background-color: #09f0e5a1;
+    width: 236px;
+    height: 267px;
+    padding-top: 93px;
+    opacity: 0;            /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+    color: white;
+}
+
+/* Show .card_tab_panel2 on hover of .card_tab_panel */
+.card_tab_panel:hover .card_tab_panel2 {
+    opacity: 1;            /* Fully visible on hover */
+}
+
+/* .card_tab_panel2 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card_tab_panel2.show {
+    opacity: 1;
+  } */
+  
+/* our volunteers css */
+
+.card_over {
+    position: relative;
+    overflow: hidden;
+    width: 270px;
+    height: 349px;
+}
+
+.our_volunteers2 {
+    position: absolute;
+    top: -100%; /* Start off-screen (above the card) */
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(9, 240, 229, 0.8); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: top 0.4s ease; /* Smooth slide effect */
+    opacity: 0;
+}
+.our_volunteers_p{
+    color:black;
+    text-align: center;
+}
+.card_volunteers:hover .our_volunteers2 {
+    top: 0; /* Slide down into view */
+    opacity: 1;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .card_over {
+        width: 100%; /* Make card full width on smaller screens */
+        height: auto;
+    }
+
+    .our_volunteers2 {
+        top: -100%;
+        left: 0; /* Align overlay to the left edge */
+        width: 100%; /* Full width overlay */
+        height: 100%;
+        background-color: rgba(9, 240, 229, 0.8);
+        padding: 20px; /* Add some padding for spacing */
+        opacity: 0;
+        display: block;
+        font-size: 14px; /* Reduce font size for mobile */
+        transition: top 0.4s ease, opacity 0.4s ease; /* Smooth transition */
+    }
+
+    .card_volunteers:hover .our_volunteers2 {
+        top: 0;
+        opacity: 1;
+    }
+
+    .icon {
+        font-size: 20px; /* Reduce icon size on mobile */
+        margin: 8px; /* Adjust spacing between icons */
+    }
+}
+
+
+/* .icon {
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+} */
+
+/* Example icons */
+/* .icon i {
+    font-size: 32px;
+} */
+
+/* Additional styling for hover effect on icons (optional) */
+/* .icon:hover {
+    color: #fff000; 
+} */
+
+
+/* what_people say css start  */
+.rounded-circle{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.peopleSayCarousel_p{
+color: white;
+}
+
+
+/* our_suponsers_logo css */
+
+.our_suponsers_logo:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* fooeter css  */
+.ul_a{
+    list-style: none;
+    padding-left: 0px;
+}
+.ul_b{
+    list-style: none;
+    padding-left: 0px;
+}
+.ul_a li{
+    padding-top:10px ;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+.ul_b li{
+    padding-bottom: 10px;
+}
+.ul_2{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 16px;
+}
+.ul_2 li{
+    padding-bottom: 10px;
+}
+.ul_3{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 16px;
+}
+.ul_3 li{
+    padding-bottom: 10px;
+
+}
+.col-lg-3{
+    color: white;
+    
+}
+.col-lg-3 h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.col-lg-3 ul{
+    font-size: 15px;
+}
+.input-group-text{
+    background-color: #0AAAA0;
+    color: white;
+    border: none;
+}
