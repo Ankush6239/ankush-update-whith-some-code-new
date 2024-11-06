@@ -47,7 +47,7 @@ function nav_bar(){
         </li>
         </div>
         <li class="nav-item">
-          <Link class="nav-link " aria-current="page" to="/" > About </Link>
+          <Link class="nav-link " aria-current="page" to="GrantFoundation/aboutus/" > About </Link>
         </li>
         <li class="nav-item">
           <Link class="nav-link " aria-current="page" to="/" > Project </Link>

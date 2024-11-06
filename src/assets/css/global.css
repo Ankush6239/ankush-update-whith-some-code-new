@@ -356,3 +356,82 @@ color: white;
     color: white;
     border: none;
 }
+/* home page css end */
+
+
+/* about page css start */
+
+.tittle_button{
+    background-color:transparent;
+    color: white;
+    border:none;
+}
+.tittle_button:hover{
+    color: #0AAAA0;
+}
+
+.content_are_btn{
+    background-color: #0AAAA0;
+    border: none;
+    padding: 6px 10px;
+    color: white;
+    font-weight: 600;
+}
+.content_are_btn:hover{
+    background-color:transparent;
+    border: 1px solid black;
+    padding: 6px 10px;
+    color: rgba(0, 0, 0, 0.662);
+    font-weight: 600;
+}
+.what_wedo_card_a{
+    position: relative;
+    z-index: 0;
+}
+.what_wedo_card_b{
+    z-index: 1;
+    position: absolute;
+    font-size: 15px;
+    background-Color: rgba(10, 170, 160, 0.6);
+    align-items: center;
+    top: 15px;
+    width: 95%;
+    height: 84%;
+    padding-top: 65px;
+    margin: auto;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    padding-left:35px;
+    font-weight: bold !important;
+  
+
+}
+
+@media (max-width: 768px) {
+    .what_wedo_card_b {
+        font-size: 13px; /* Reduce font size for mobile */
+        width: 90%;
+        height: 80%;
+        padding-top: 40px;
+        padding-left: 20px;
+        top: 10px;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .what_wedo_card_b {
+        font-size: 12px;
+        width: 85%;
+        height: 75%;
+        padding-top: 55px;
+        padding-left: 34px;
+        top: 8px;
+        bottom: 8px;
+        left: -8px;
+        right: 8px;
+    }
+}
