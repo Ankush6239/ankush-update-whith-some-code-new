@@ -1,17 +1,23 @@
-import React from "react";
-import { Home_section_Img1, card_img_1 } from "../../link";
+import React,{useEffect, useState} from "react";
+import { Home_section_Img1, card_img_6, card_img_4,card_img_5 } from "../../link";
 
 function What_wedo(){
     const card = [
-        { name:"DONATE FOR EDUCATION", img: card_img_1},
-        { name:"DONATE FOR EDUCATION", img: card_img_1},
-        { name:"DONATE FOR EDUCATION", img: card_img_1},
-    ]
-
+        { name:"DONATE FOR EDUCATION", img: card_img_6},
+        { name:"DONATE FOR EDUCATION", img: card_img_4},
+        { name:"DONATE FOR EDUCATION", img: card_img_5},
+    ];
+//  const [count, setcount]=useState(0);
+//   useEffect(()=>{
+//     const intervalld= setInterval(() => {
+//         setcount(prevCount=>prevCount+1)
+//     }, 1000);
+//     return ()=>clearInterval(intervalld)
+//   },1000);
    
     return(
         <>
-        <div className="container">
+        <div className="container ">
                 <div className="row">
                     <div className="col-lg-12 col-sm-12 text-center">
                         <h2 className="fs">What We <span className="section_heading"> Do</span></h2>
@@ -35,8 +41,10 @@ function What_wedo(){
                     }
                     
                 </div>
-                
                 </div>
+                <div>
+                    {/* {count} */}
+                    </div>
         </>
     )
 }

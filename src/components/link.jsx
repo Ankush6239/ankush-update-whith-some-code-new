@@ -6,6 +6,9 @@ const Home_section_Img1="https://htmldemo.net/grant-foundation/grant-foundation/
 const card_img_1 ="https://htmldemo.net/grant-foundation/grant-foundation/img/couses/couses-one.jpg"
 const card_img_2 ="https://htmldemo.net/grant-foundation/grant-foundation/img/couses/couses-two.jpg"
 const card_img_3 ="https://htmldemo.net/grant-foundation/grant-foundation/img/couses/couses-three.jpg"
+const card_img_4 ="https://htmldemo.net/grant-foundation/grant-foundation/img/about/we-do-three.jpg"
+const card_img_5 ="https://htmldemo.net/grant-foundation/grant-foundation/img/about/we-do-two.jpg"
+const card_img_6 ="https://htmldemo.net/grant-foundation/grant-foundation/img/about/we-do-one.jpg"
 const how_can_help_img1="https://htmldemo.net/grant-foundation/grant-foundation/img/help-us-bg.jpg"
 const Gallery_Img ="https://htmldemo.net/grant-foundation/grant-foundation/img/gallery/gallery-one.jpg"
 const Gallery_Img2 ="https://htmldemo.net/grant-foundation/grant-foundation/img/gallery/gallery-two.jpg"
@@ -44,6 +47,9 @@ export{
     card_img_1,
     card_img_2,
     card_img_3,
+    card_img_4,
+    card_img_5,
+    card_img_6,
     how_can_help_img1,
      Gallery_Img,
      Gallery_Img2,

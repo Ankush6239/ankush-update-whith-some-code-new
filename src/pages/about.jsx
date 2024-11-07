@@ -7,6 +7,8 @@ import About_content_are from "../components/About/about/About_content_are";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons"; // Import icon here
 import What_wedo from "../components/About/about/what_wedo";
+import About_counter from "../components/About/about_counter";
+import OUR_VOLUNTEERS from "../components/OUR_VOLUNTEERS";
 
 function About() {
     const [isVisible, setVisibility] = useState(false);
@@ -45,6 +47,12 @@ function About() {
             <div className="what-we-do">
                 {/* <What_we_do/> */}
                 <What_wedo/>
+            </div>
+            <div className="aboutCounter">
+                <About_counter/>
+            </div>
+            <div>
+                <OUR_VOLUNTEERS/>
             </div>
             <Footer />
             {isVisible && (

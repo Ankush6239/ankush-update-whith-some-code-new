@@ -397,7 +397,7 @@ color: white;
     top: 15px;
     width: 95%;
     height: 84%;
-    padding-top: 65px;
+    padding-top: 33%;
     margin: auto;
     bottom: 15px;
     left: 15px;
@@ -427,11 +427,14 @@ color: white;
         font-size: 12px;
         width: 85%;
         height: 75%;
-        padding-top: 55px;
+        padding-top: 25%;
         padding-left: 34px;
         top: 8px;
         bottom: 8px;
         left: -8px;
         right: 8px;
     }
+}
+.about_counter{
+    border-bottom: 4px solid #0AAAA0;
 }
