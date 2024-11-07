@@ -9,7 +9,8 @@ import { faAngleUp } from "@fortawesome/free-solid-svg-icons"; // Import icon he
 import What_wedo from "../components/About/about/what_wedo";
 import About_counter from "../components/About/about_counter";
 import OUR_VOLUNTEERS from "../components/OUR_VOLUNTEERS";
-
+import OUR_SPONSORS from "../components/OUR _SPONSORS";
+import We_think_about from "../components/About/about/we_think_about";
 function About() {
     const [isVisible, setVisibility] = useState(false);
 
@@ -53,6 +54,12 @@ function About() {
             </div>
             <div>
                 <OUR_VOLUNTEERS/>
+            </div>
+            <div>
+                <We_think_about/>
+            </div>
+            <div>
+                <OUR_SPONSORS />
             </div>
             <Footer />
             {isVisible && (

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 
-function aboutcounter_2( {start, end}){
+function aboutcounter_2( {start, end, }){
     const [count, setcount]=useState(start);
     useEffect(()=>{
      const InterVald = setInterval(()=>{
@@ -18,7 +18,7 @@ function aboutcounter_2( {start, end}){
     return(
         <>
         <div>
-         <h2 className="fs-1 fw-bold pb-3 about_counter">{count}</h2>
+         <h2 className="fs-1 fw-bold pb-3 about_counter">{count}%</h2>
          </div>
         </>
     )

@@ -32,6 +32,7 @@ const OUR_SPONSOR_logo4="https://htmldemo.net/grant-foundation/grant-foundation/
 const OUR_SPONSOR_logo5="https://htmldemo.net/grant-foundation/grant-foundation/img/brand-logo/b-logo-six.png"
 const about_title_area ="https://htmldemo.net/grant-foundation/grant-foundation/img/about/page-banner.jpg"
 const about_content_are_img2 ="https://htmldemo.net/grant-foundation/grant-foundation/img/about/about-image.jpg"
+const Video_img_for_wethink="https://htmldemo.net/grant-foundation/grant-foundation/img/about/video-image.jpg"
 // const Gallery_Img4
 // const Gallery_Img4
 // const Gallery_Img4
@@ -73,5 +74,6 @@ export{
      OUR_SPONSOR_logo5,
      about_title_area,
      about_content_are_img2,
+     Video_img_for_wethink,
 
 }
