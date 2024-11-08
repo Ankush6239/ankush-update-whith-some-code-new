@@ -8,7 +8,7 @@ function about_content_are(){
                 <div className="col-lg-6 col-sm-12 pt-5">
                 <div className="text-center">
             <h2 className="fs">About<span className="section_heading"> Us</span></h2>
-            <img src={Home_section_Img1} alt="" />
+            <img src={Home_section_Img1} alt=""  />
            
         </div>
                 <p className=" mt-3">

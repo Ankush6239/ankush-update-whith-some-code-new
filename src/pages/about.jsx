@@ -40,7 +40,9 @@ function About() {
         <>
             <Nav_bar />
             <div className="title_area">
-                <Title_are />
+                <Title_are
+                 Title="About Us"
+                />
             </div>
             <div className="content">
                 <About_content_are />

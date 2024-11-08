@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom"; // Importing useNavigate from React Router
 
-function TitleArea() {
+function TitleArea(props) {
     const navigate = useNavigate(); // Initialize the useNavigate hook
 
     // Function to navigate back to the Home page
@@ -26,7 +26,7 @@ function TitleArea() {
                     <div className="row p-5">
                         <div className="col-lg-12 text-center text-light">
                             <h2 className="fs-1 fw-bold">About Us</h2>
-                            <h6 className="fw-bold">Home /<span className="section_heading"> About Us</span></h6>
+                            <h6 className="fw-bold">Home /<span className="section_heading">{props.Title}</span></h6>
                         </div>
                     </div>
                     <div className="row pb-2">

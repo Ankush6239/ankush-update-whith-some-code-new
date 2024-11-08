@@ -441,3 +441,26 @@ color: white;
 .video_img{
 width: 100%;
 }
+/* .our_date_a{
+    position: relative;
+} */
+.our_date{
+    background-color: #0AAAA0;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-weight:600;
+    position: relative;
+    top: -360px;
+
+}
+.ourevent_img{
+    width:500px;
+    height:360px;
+}
+@media (max-width: 480px) {
+    .ourevent_img{
+        width:100%;
+        height:100%px;
+    }
+}

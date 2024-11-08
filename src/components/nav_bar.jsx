@@ -27,6 +27,7 @@ function nav_bar(){
       [dropdown]:false,
     }));
   } 
+  
     return(
 <>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -53,7 +54,7 @@ function nav_bar(){
           <Link class="nav-link " aria-current="page" to="/" > Project </Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link " aria-current="page" to="/" > Events </Link>
+          <Link class="nav-link " aria-current="page" to="/GrantFoundation/Our_events/" > Events </Link>
         </li>
         <div
         className="menu"
