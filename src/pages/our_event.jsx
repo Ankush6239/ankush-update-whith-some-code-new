@@ -5,6 +5,7 @@ import Event_content from "../components/Our_event/event_content";
 import TitleArea from "../components/About/about/tiitle_are";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
+import OUR_SPONSORS from "../components/OUR _SPONSORS";
 
 function our_event(){
     const [visibility, setVisibility]=useState(false);
@@ -34,10 +35,14 @@ function our_event(){
        <div>
         <TitleArea
         Title=" Our Event"
+        Head="Our Event"
         />
        </div>
 <div>
     <Event_content/>
+</div>
+<div>
+    <OUR_SPONSORS/>
 </div>
 
         <Footer/>

@@ -42,6 +42,7 @@ function About() {
             <div className="title_area">
                 <Title_are
                  Title="About Us"
+                 Head="About Us"
                 />
             </div>
             <div className="content">

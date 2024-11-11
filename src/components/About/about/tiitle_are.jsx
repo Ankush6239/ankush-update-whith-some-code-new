@@ -25,7 +25,7 @@ function TitleArea(props) {
                 <div className="container pt-5">
                     <div className="row p-5">
                         <div className="col-lg-12 text-center text-light">
-                            <h2 className="fs-1 fw-bold">About Us</h2>
+                            <h2 className="fs-1 fw-bold">{props.Head}</h2>
                             <h6 className="fw-bold">Home /<span className="section_heading">{props.Title}</span></h6>
                         </div>
                     </div>
